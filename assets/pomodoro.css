@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100..900&family=Roboto:wght@100..900&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a2d3a;
+  color: #d0d8e8;
+  display: flex;
+  flex-direction: column; /* empilha vertical */
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 5%;
+  gap: 2rem; /* espaço entre pomodoro e to-do */
+  padding: 1rem;
+}
+
+.container-pomodoro {
+  text-align: center;
+  width: 100%;
+  max-width: 350px;
+  padding: 10px 0;
+
+}
+
+.timer {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#pomodoro-main {
+  width: 100%;
+  max-width: 350px;
+
+  border-radius: 12px;
+  padding: 1rem;
+  color: #d0d8e8;
+
+  text-align: left;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 15px auto;
+}
+
+.button-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pomodoro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: 2rem 0;
+  text-align: center;
+  border-radius: 12px;
+  background: #1f212c;
+  box-shadow: 10px 10px 20px #14151c, -10px -10px 20px #2e3241;
+}
+
+/* removendo o círculo azul da borda */
+.pomodoro::before {
+  content: none;
+}
+
+.container .timer h1 {
+  font-size: 2rem;
+  margin: 15px auto;
+}
+
+.time,
+.timer-display {
+  font-size: 3rem !important;
+  margin: 10px auto;
+  font-weight: bold;
+  color: #e2e8f0;
+}
+
+.button,
+#start,
+#stop {
+  background-color: #3a3d4d;
+  color: #e2e8f0;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  margin: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.button:active,
+.button:hover,
+#start:hover {
+  background-color: #4ca96b;
+}
+
+#stop:hover {
+  background-color: #a94c4c;
+}
+
+#timer-message {
+  color: #f5f5f5;
+  background-color: #39404f;
+  display: none;
+  padding: 2rem;
+  font-size: 0.9rem;
+  text-align: center;
+  border-radius: 0.7rem;
+}
+
+#btnPomodoro {
+    margin-bottom: 30px;
+}
+
+#ButtonsGroup:hover {
+  background-color: #39404f;
+
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  body {
+    padding: 0.5rem;
+    gap: 1.5rem;
+  }
+
+  .container-pomodoro,
+  main {
+    max-width: 280px;
+  }
+
+  .timer {
+    width: 100%;
+  }
+
+  .time,
+  .timer-display {
+    font-size: 2.5rem !important;
+  }
+}
