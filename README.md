@@ -2,7 +2,7 @@
 
 Organize your tasks and manage your time using the **Pomodoro Technique** in a simple and intuitive way. **PomoList** combines a task manager with a Pomodoro timer to boost your productivity!
 
-![Project Cover](![image](https://github.com/user-attachments/assets/fadf5de7-a10f-4a0c-9864-1d7779f28ca8))
+![image](https://github.com/user-attachments/assets/fadf5de7-a10f-4a0c-9864-1d7779f28ca8)
 
 ## 🔗 Live Demo
 
