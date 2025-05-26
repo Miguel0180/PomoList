@@ -14,10 +14,15 @@ https://pomo-list.vercel.app/)**
 ## 🚀 Features
 
 ✅ Add tasks to your list
+
 ✅ Mark tasks as completed
+
 ✅ Delete tasks from the list
+
 ✅ Built-in Pomodoro timer
+
 ✅ Clean and intuitive interface
+
 ✅ Data saved with LocalStorage (keeps your tasks saved)
 
 ---
@@ -30,11 +35,6 @@ https://pomo-list.vercel.app/)**
 
 ---
 
-## 💻 Project Preview
-
-![Project Preview](https://raw.githubusercontent.com/Miguel0180/PomoList/main/assets/preview.png)
-
----
 
 ## 📂 How to Run This Project
 
